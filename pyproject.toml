@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mda"
+version = "0.1.0"
+description = ""
+authors = ["Tom Newport <tom.newport@nanoporetech.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mdanalysis = "^2.7.0"
+matplotlib = "^3.8.3"
+plotly = "^5.20.0"
+jupyter = "^1.0.0"
+imageio = {extras = ["ffmpeg"], version = "^2.34.0"}
+nglview = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
